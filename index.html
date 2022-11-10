@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>JavaScript demo</title>
+	  <link rel="stylesheet" href="Style/style.css">
+	  <!-- Style Sheet-->
+	  
+	  
+	  <!-- used to embed client side script/JS -->
+	  <script type="text/javascript">
+		
+		//comment in JS
+		var Tempature = 17;
+		var guess = parseInt(prompt("Guess todays Tempature"));
+		//guessing 
+		if(Tempature == guess){
+                document.write("<h1 style=''>Guessed It!</h1>");
+            
+            }else if(Tempature < guess){
+                document.write("<h1 style=''>Too High:(</h1>");
+            }else if(Tempature > guess){
+                document.write("<h1 style=''>Too Low:(</h1>");
+            }else{
+                document.write("<h1 style=''>Invalid!</h1>");
+            }
+		
+	
+	  </script>
+	  	  
+	</head>
+	<body>
+		
+	</body>
+</html>
